@@ -12,6 +12,7 @@ for i in data:
         password += int((100 - x - i)/100)
         if x == 0:
             password -= 1
+
     x = (x + i) % 100
 
 print(password)
